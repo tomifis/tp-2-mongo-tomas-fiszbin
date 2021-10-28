@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envíe su testimonio</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="shortcut icon" href="../img/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="contenedor">
+    <div class="contenedor-form">
+        <h1>Dejá tu testimonio</h1>           
+        <form action="/enviar-testimonio" method="POST">
+            <label class="label-oculto" for="nombre">Nombre</label>
+            <input placeholder="Nombre" type="text" name="nombre" id="nombre" required>
+
+            <label class="label-oculto" for="linkedin">Link de LinkedIn</label>
+            <input placeholder="Link de LinkedIn" type="text" name="linkedin" id="linkedin" required>
+
+            <label class="label-oculto" for="testimonio">Ingresá tu testimonio</label>
+            <textarea name="testimonio" id="testimonio" placeholder="Ingresá tu testimonio" required></textarea>
+          
+            <button class="btn" type="submit">Enviar Testimonio</button>
+        </form>
+    </div> 
+</div>
+</body>
+</html>
